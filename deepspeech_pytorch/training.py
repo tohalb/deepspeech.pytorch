@@ -34,7 +34,8 @@ def train(cfg: DeepSpeechConfig):
         labels=labels,
         data_cfg=cfg.data,
         normalize=True,
-        is_distributed=cfg.trainer.gpus > 1
+        #is_distributed=cfg.trainer.gpus > 1 Issue solution taken from piraka9011 at https://github.com/SeanNaren/deepspeech.pytorch/pull/626
+        is_distributed=cfg.trainer.gpus is not None and (cfg.trainer.gpus > 1 or cfg.trainer.gpus < 0)
     )
 
     model = DeepSpeech(
