@@ -1,9 +1,9 @@
 # deepspeech.pytorch
-# Cloned from: https://github.com/SeanNaren/deepspeech.pytorch
-# Changes made to the following files:
-#      deepspeech_pytorch/training.py (bug raised as issue in issue log)
-#      deepspeech_pytorch/model.py - Implemented convolutional model
-#      deepspeech/pytorch/configs/train_config.py - changed some configuration parameters
+### Cloned from: https://github.com/SeanNaren/deepspeech.pytorch
+### Changes made to the following files:
+###      deepspeech_pytorch/training.py (bug raised as issue in issue log)
+###      deepspeech_pytorch/model.py - Implemented convolutional model
+###      deepspeech/pytorch/configs/train_config.py - changed some configuration parameters
 
 
 [![Build Status](https://travis-ci.com/SeanNaren/deepspeech.pytorch.svg?branch=master)](https://travis-ci.com/SeanNaren/deepspeech.pytorch)
