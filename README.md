@@ -1,4 +1,11 @@
 # deepspeech.pytorch
+# Cloned from: https://github.com/SeanNaren/deepspeech.pytorch
+# Changes made to the following files:
+#      deepspeech_pytorch/training.py (bug raised as issue in issue log)
+#      deepspeech_pytorch/model.py - Implemented convolutional model
+#      deepspeech/pytorch/configs/train_config.py - changed some configuration parameters
+
+
 [![Build Status](https://travis-ci.com/SeanNaren/deepspeech.pytorch.svg?branch=master)](https://travis-ci.com/SeanNaren/deepspeech.pytorch)
 
 Implementation of DeepSpeech2 for PyTorch using [PyTorch Lightning](https://github.com/PyTorchLightning/pytorch-lightning). The repo supports training/testing and inference using the [DeepSpeech2](http://arxiv.org/pdf/1512.02595v1.pdf) model. Optionally a [kenlm](https://github.com/kpu/kenlm) language model can be used at inference time.
