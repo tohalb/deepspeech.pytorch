@@ -3,6 +3,7 @@
 ### Changes made to the following files:
 ###      deepspeech_pytorch/training.py (bug raised as issue in issue log)
 ###      deepspeech_pytorch/model.py - Implemented convolutional model
+####            ConvLSTM comes from Andrea Palazzi's repository at https://github.com/ndrplz/ConvLSTM_pytorch
 ###      deepspeech_pytorch/configs/train_config.py - changed some configuration parameters
 
 
