@@ -58,7 +58,7 @@ class UniDirectionalConfig(BiDirectionalConfig):
 
 @dataclass
 class OptimConfig:
-    learning_rate: float = 1.5e-4  # Initial Learning Rate
+    learning_rate: float = 1.5e-3  # Initial Learning Rate
     learning_anneal: float = 0.99  # Annealing applied to learning rate after each epoch
     weight_decay: float = 1e-5  # Initial Weight Decay
 
